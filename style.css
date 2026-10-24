@@ -316,3 +316,66 @@ footer {
   border: 1px solid rgba(168, 85, 247, 0.15);
   display: inline-block;
 }
+
+/* --- PORTFOLIO SECTION CUSTOM STYLES --- */
+.portfolio-section {
+  background: linear-gradient(180deg, rgba(8, 11, 17, 0) 0%, rgba(59, 130, 246, 0.02) 100%);
+  border-top: 1px solid var(--border-color);
+  padding-top: 120px;
+}
+
+/* Modifikasi gaya card portfolio agar ada aksen biru neon */
+.portfolio-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portfolio-card:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+/* Label Nomor Proyek di Atas */
+.portfolio-tag {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.75rem;
+  color: #60a5fa;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+/* Grouping untuk Tags Teknologi */
+.tags-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.tag {
+  font-size: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  color: var(--text-muted);
+}
+
+/* Tombol Link Mini */
+.btn-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: 'Space Grotesk', sans-serif;
+  transition: color 0.3s, transform 0.3s;
+  display: inline-block;
+  margin-top: auto;
+}
+
+.btn-link:hover {
+  color: #60a5fa;
+  transform: translateX(4px);
+}
